@@ -25,7 +25,7 @@ export default function Home() {
           Hostname: {process.env.NEXT_PUBLIC_HOSTNAME}
         </h1>
 
-        <h1 className={styles.title}>URL: {process.env.NEXT_PUBLIC_url}</h1>
+        <h1 className={styles.title}>URL: {process.env.NEXT_PUBLIC_URL}</h1>
       </main>
 
       <footer className={styles.footer}>
